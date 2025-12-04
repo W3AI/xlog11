@@ -1,0 +1,10 @@
+name: Deploy 11ty Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Change to your default branch name (e.g., master)
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy: runs
