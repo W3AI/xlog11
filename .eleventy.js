@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",     // Source dir
-      output: "docs"  // Output dir
+      output: "xlog11"  // Output dir
     }
   }
 }
