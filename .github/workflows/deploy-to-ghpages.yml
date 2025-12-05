@@ -30,6 +30,7 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
       - run: npm install
       - run: npm run build
+      - run: find . # for debugging the build output in GitHub Actions logs
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
